@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+  background: #e0e0e0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+  height: 400px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: -13px -13px 26px #cecece,
+    13px 13px 26px #f2f2f2;
+}
+
+label {
+  font-size: 30px;
+  color: rgb(80, 80, 80);
+}
+
+input {
+  height: 50px;
+  width: 85%;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #e0e0e0;
+  font-size: 30px;
+  padding: 15px 15px;
+  color: rgb(90, 90, 90);
+  box-shadow: -10px -10px 20px #ccc,
+    8px 8px 15px #fff;
+}
+
+input::placeholder {
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 85%;
+  border-radius: 15px;
+  border: none;
+  background: #e0e0e0;
+  font-size: 25px;
+  color: rgb(90, 90, 90);
+  box-shadow: -10px -10px 20px #ccc,
+    8px 8px 15px #fff;
+}
+
+button:active {
+  background: rgb(80, 80, 80);
+  color: #e0e0e0;
+}
+
+a{
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+  cursor: auto;
+}
